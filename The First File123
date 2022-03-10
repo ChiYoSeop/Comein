@@ -1,0 +1,4 @@
+f = open('numbers.txt', 'r',encoding='UTF8')
+l = f.readline()
+print(l)
+f.close()
